@@ -1,3 +1,74 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+nav{
+  padding-top: 30px;
+  padding-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  width: 100%;
+  background-color: grey;
+  padding-left: 20px;
+  flex-wrap: wrap;
+  /* z-index: 2; */
+  gap: 20px;
+}
+
+.navul ul{
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 200px;
+  align-items: center;
+  
+}
+.navb{
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+nav img{
+  width:50px;
+  display: flex;
+  
+  font-size: clamp(1.5rem,2vw,2.5rem);
+}
+
+.navhead{
+  text-decoration: none;
+  color: black;
+  margin-right: 100px;
+}
+
+@media screen and (max-width:540px){
+  nav .navul {
+    display: none;
+  }
+}
+.menu{
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+@media screen and (min-width:540px){
+  .menu{
+    display: none;
+  }
+
+}
+
 .hh{
   
   display: flex;
