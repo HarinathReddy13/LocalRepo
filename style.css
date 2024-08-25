@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .hh{
   
   display: flex;
@@ -30,4 +31,14 @@ section{
   margin-bottom: 20px;
   
   border-radius: 50%;
+=======
+footer{
+  background-color: grey;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: max-content;
+  padding: 20px;
+>>>>>>> ad15a8dd4cb2eea7a11c17b8d840589233cbf53d
 }
